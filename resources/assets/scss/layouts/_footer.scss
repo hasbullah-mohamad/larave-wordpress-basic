@@ -1,0 +1,11 @@
+.site-footer {
+  position: relative;
+  z-index: $header-z-index;
+  
+}
+
+.navigation-opened {
+  .site-footer {
+    display: none;
+  }
+}
